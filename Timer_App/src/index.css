@@ -1,0 +1,60 @@
+body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.clock-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 5px solid;
+  border-radius: 50px;
+  padding: 30px;
+}
+
+.clock{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: black;
+  color:rgb(74, 71, 71);
+  text-shadow: 2px 2px 2px black;
+  padding:20px
+}
+
+.controls button{
+  font-size:1.5rem;
+  font-weight: black;
+  padding: 10px 20px;
+  margin:10px;
+  border-radius:20px;
+  min-width:125px;
+  border:none;
+  cursor:pointer;
+  color:rgb(254, 254, 254)
+}
+
+.start-button{
+  background-color: rgb(90, 211, 90);
+}
+
+.start-button:hover{
+  background-color: rgb(81, 188, 81);
+}
+
+.stop-button{
+  background-color: rgb(73, 156, 228);
+}
+
+.stop-button:hover{
+  background-color: rgb(66, 140, 205);
+}
+
+.reset-button{
+  background-color: rgb(226, 79, 79);
+}
+
+.reset-button:hover{
+  background-color: rgb(202, 70, 70);
+}
+
